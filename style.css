@@ -6,6 +6,44 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;;
 }
+.nav-area{
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+}
+.idea{
+    display: flex;
+    align-items: center;
+}
+.idea .fa-lightbulb{
+    font-size: 50px;
+    margin-left: 285px;
+    color: #FFFFFF;
+}
+.idea-title{
+    color: white;
+    font-size: 24px;
+    margin-left: 16px;
+}
+.nav-info{
+    display: flex;
+    align-items: center;
+}
+.nav-info h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.nav-info .home{
+    margin-right: 50px;
+}
+.nav-info .about{
+    margin-right: 150px;
+}
+.nav-info .profile-image{
+    margin-right: 220px;
+}
 main{
     display: flex;
     flex-direction: column;
